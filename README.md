@@ -1,4 +1,4 @@
-这是 connect 的 url router middleware，是 caolan 的 dispatch 的一个重写。让它成为一个更合我意的 url router。所以我对它加入了返回对象，可以通过 add 和 remove 方法在之后添加或移除 url 规则。比如
+这是一个 [Connect](http://senchalabs.github.com/connect/) 的 url router middleware，是 [caolan](https://github.com/caolan/) 的 [dispatch](https://github.com/caolan/dispatch/) 的一个重写，因此在 API 设计上沿用自 dispatch。为了让它成为一个更合我意的 url router，我加入了返回对象，可以通过 add 和 remove 方法在之后添加或移除 url 规则。比如
 
     var urlRules = switchman();
     connect( urlRules ).listen(80);
